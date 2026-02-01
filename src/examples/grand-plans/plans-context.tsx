@@ -9,7 +9,7 @@ type PlansContextType = {
   removePlan: (id: number) => Promise<void>;
 };
 
-const PlansContext = createContext<PlansContextType | undefined>(undefined);
+const PlansContext = createContext<PlansContextType>(null as ubknown as PlansContextType);
 
 export const PlansProvider = ({ children }: PropsWithChildren) => {
   const [plans, setPlans] = useState<Plan[]>([]);
