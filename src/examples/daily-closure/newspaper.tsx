@@ -10,7 +10,7 @@ export const Newspaper = () => {
       <header className="border-b-4 border-double border-slate-800 pb-6 text-center font-serif">
         <h1 className="mb-2 text-6xl font-bold tracking-tight">The Daily Closure</h1>
         <p className="text-xl text-slate-500 italic dark:text-slate-300">
-          All the Lorem Ipsum that is fit to print.
+          All the shit that is fit to print.
         </p>
         <div className="mt-4 text-sm text-slate-500 dark:text-slate-300">
           Published on {currentDate}.
